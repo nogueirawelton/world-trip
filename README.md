@@ -1,5 +1,5 @@
 <h1 align="center">
-  NpsCalc
+  WorldTrip
 </h1>
 
 <p align="center">
@@ -7,25 +7,15 @@
 
 ## 💻 Projeto
 
-Aplicação para cálculo de nps a partir de pesquisas feitas por email.
+Website de viagens.
 
 ## ✨ Tecnologias
 
-- [ ] Node
+- [ ] React
 - [ ] Typescript
-- [ ] Express
-- [ ] Prisma
-- [ ] Yup
-- [ ] Jest
-- [ ] Supertest
-- [ ] NodeMailer
+- [ ] Next
+- [ ] ChakraUI
 
-## :hammer_and_wrench: Features
-
-- [ ] Criação de Usuários
-- [ ] Criação de Pesquisas
-- [ ] Envio de Email
-- [ ] Cálculo Nps
 
 ## Executando o projeto
 
