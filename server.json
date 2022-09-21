@@ -77,6 +77,44 @@
       ]
     },
     {
+      "id": "asia",
+      "data": {
+        "name": "Ásia",
+        "excerpt": " O continente mais extenso",
+        "info": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial. A Ásia faz fronteira no lado ocidental com a África e com a Europa, e no lado oriental com o oceano Pacífico, a Oceania e, em menor proporção, com a América do Norte, pelo Estreito de Bering.",
+        "countries": 50,
+        "languages": 8,
+        "population": 4.462
+      },
+      "cities": [
+        {
+          "name": "Xangai",
+          "country": "China",
+          "code": "CHN"
+        },
+        {
+          "name": "Mumbai",
+          "country": "Índia",
+          "code": "IND"
+        },
+        {
+          "name": "Istambul",
+          "country": "Turquia",
+          "code": "TUR"
+        },
+        {
+          "name": "Seul",
+          "country": "Coreia do sul",
+          "code": "KOR"
+        },
+        {
+          "name": "Tóquio",
+          "country": "Japão",
+          "code": "JPN"
+        }
+      ]
+    },
+    {
       "id": "europa",
       "data": {
         "name": "Europa",
@@ -113,6 +151,56 @@
           "code": "NLD"
         }
       ]
+    },
+    {
+      "id": "oceania",
+      "data": {
+        "name": "Oceania",
+        "excerpt": "O menor continente.",
+        "info": "Oceania  é uma região geográfica composta por vários grupos de ilhas do oceano Pacífico (Polinésia, Melanésia e Micronésia). O termo Oceania foi criado em 1831 pelo explorador francês Dumont d'Urville. O termo é usado hoje em vários idiomas para designar uma região geográfica e política que compreende o continente da Austrália e ilhas do Oceano Pacífico adjacentes. Os limites da Oceania são definidos de várias maneiras. A maioria das definições reconhecem partes da Australásia como a Austrália, Nova Zelândia e Nova Guiné, e parte do Arquipélago Malaio como sendo partes da Oceania.",
+        "countries": 16,
+        "languages": 18,
+        "population": 40
+      },
+      "cities": [
+        {
+          "name": "Sydney",
+          "country": "Austrália",
+          "code": "AUS"
+        },
+        {
+          "name": "Melbourne",
+          "country": "Austrália",
+          "code": "AUS"
+        },
+        {
+          "name": "Brisbane",
+          "country": "Austrália",
+          "code": "AUS"
+        },
+        {
+          "name": "Perth",
+          "country": "Austrália",
+          "code": "AUS"
+        },
+        {
+          "name": "Macáçar",
+          "country": "Indonésia",
+          "code": "IDN"
+        }
+      ]
+    },
+    {
+      "id": "antartida",
+      "data": {
+        "name": "Antártida",
+        "excerpt": "O continente mais frio.",
+        "info": "Antártida ou Antártica é o mais meridional e o segundo menor dos continentes (maior apenas que a Austrália), com uma superfície de 14 milhões de quilômetros quadrados. Rodeia o polo Sul, e por esse motivo está quase completamente coberta por enormes geleiras (glaciares), exceção feita a algumas zonas de elevado aclive nas cadeias montanhosas e à extremidade norte da península Antártica. Sua formação se deu pela separação do antigo supercontinente Gondwana há aproximadamente 100 milhões de anos e seu resfriamento aconteceu nos últimos 35 milhões de anos.",
+        "countries": 0,
+        "languages": 0,
+        "population": 1
+      },
+      "cities": []
     }
   ]
 }

@@ -33,31 +33,35 @@ export default function Continent({ continent }) {
             </Box>
           </HStack>
         </SimpleGrid>
-        <Box as="section" pb="8">
+        {
+          !!continent.cities.length && (
+            <Box as="section" pb="8">
           <Heading fontSize="3xl">Cidades</Heading>
           <SimpleGrid columns={4} mt="8" spacing="8" minChildWidth={254}>
           {continent.cities.map(c => {
               return (
-                <Box key={c.name} w={254} borderRadius="4px 4px 0 0" overflow="hidden" mx="auto">
-                  <Img src={`/assets/images/cities/${c.name.toLowerCase()}.jpg`} h={173}></Img>
-                  <Box>
-                    <Flex p="4" border="1px solid" borderTop="none" borderColor="yellow.400" align="center" justify="space-between" borderRadius="0 0 4px 4px">
-                      <Box> 
-                        <Text fontWeight="500">{c.name}</Text>
-                        <Text>{c.country}</Text>
+                    <Box key={c.name} w={254} borderRadius="4px 4px 0 0" overflow="hidden" mx="auto">
+                      <Img src={`/assets/images/cities/${c.name.toLowerCase()}.jpg`} h={173}></Img>
+                      <Box>
+                        <Flex p="4" border="1px solid" borderTop="none" borderColor="yellow.400" align="center" justify="space-between" borderRadius="0 0 4px 4px">
+                          <Box> 
+                            <Text fontWeight="500">{c.name}</Text>
+                            <Text>{c.country}</Text>
+                          </Box>
+                          <Flag code={c.code} width="64" style={{
+                              objectFit: "cover",
+                              clipPath: " circle(16px)"
+                            }}/>
+                        </Flex>
                       </Box>
-                      <Flag code={c.code} width="64" style={{
-                          objectFit: "cover",
-                          clipPath: " circle(16px)"
-                        }}/>
-                    </Flex>
-                  </Box>
-                </Box>
-              )
-            })
-          }
-          </SimpleGrid>
-        </Box>
+                    </Box>
+                  )
+                })
+              }
+              </SimpleGrid>
+            </Box>
+          )
+        }
       </Box>
     </>
   )
