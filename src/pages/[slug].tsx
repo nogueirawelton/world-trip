@@ -28,8 +28,8 @@ export default function Continent({ continent }) {
               <Text>linguas</Text>
             </Box>
             <Box textAlign="center" fontWeight="500">
-              <Text color="yellow.400" fontSize="4xl">{continent.data.cities}</Text>
-              <Text>cidades</Text>
+              <Text color="yellow.400" fontSize="4xl">{continent.data.population} M</Text>
+              <Text>habitantes</Text>
             </Box>
           </HStack>
         </SimpleGrid>
@@ -75,9 +75,8 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
   const { continents } = data;
 
-  const continent = continents.find(c => c.data.name.toLowerCase() === slug);
+  const continent = continents.find(c => c.id === slug);
 
-  console.log(continent);
   if(continent) {
     return {
       props: {

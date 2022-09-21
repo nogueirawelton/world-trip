@@ -1,6 +1,82 @@
 {
   "continents": [
     {
+      "id": "africa",
+      "data": {
+        "name": "África",
+        "excerpt": "Grande diversidade étnica, cultural, social e política.",
+        "info": "A África é o terceiro continente mais extenso (depois da Ásia e da América) com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra (atrás da Ásia) com cerca de um bilhão de pessoas (estimativa para 2005), representando cerca de um sétimo da população mundial, e 54 países independentes. Tem se transformado na ultima década em uma continente cada vez mais católico.",
+        "countries": 55,
+        "languages": 2000,
+        "population": 1.225
+      },
+      "cities": [
+        {
+          "name": "Lagos",
+          "country": "Nigéria",
+          "code": "NGA"
+        },
+        {
+          "name": "Cairo",
+          "country": "Egito",
+          "code": "EGY"
+        },
+        {
+          "name": "Kinshasa",
+          "country": "Congo",
+          "code": "COD"
+        },
+        {
+          "name": "Luanda",
+          "country": "Angola",
+          "code": "AGO"
+        },
+        {
+          "name": "Joanesburgo",
+          "country": "África do Sul ",
+          "code": "ZAF"
+        }
+      ]
+    },
+    {
+      "id": "america",
+      "data": {
+        "name": "América",
+        "excerpt": "Novo Mundo.",
+        "info": "América é o continente localizado no hemisfério ocidental e que se estende, no sentido norte-sul, desde o oceano Ártico até o cabo Horn, ao longo de cerca de 15 mil quilômetros. É o segundo maior continente em área. O seu extremo oriental insular (não continental) encontra-se na Groenlândia, o Nordostrundingen, enquanto o ocidental localiza-se nas Aleutas. Já os extremos continentais (não insulares) são o cabo Príncipe de Gales, o extremo ocidental, no Alasca, e a ponta do Seixas, extremo oriental, no estado brasileiro da Paraíba.",
+        "countries": 35,
+        "languages": 10,
+        "population": 1.022
+      },
+      "cities": [
+        {
+          "name": "São Paulo",
+          "country": "Brasil",
+          "code": "BRA"
+        },
+        {
+          "name": "Lima",
+          "country": "Peru",
+          "code": "PER"
+        },
+        {
+          "name": "Nova Iorque",
+          "country": "Estados Unidos",
+          "code": "USA"
+        },
+        {
+          "name": "Cidade do México",
+          "country": "México",
+          "code": "MEX"
+        },
+        {
+          "name": "Bogotá",
+          "country": "Colombia",
+          "code": "COL"
+        }
+      ]
+    },
+    {
       "id": "europa",
       "data": {
         "name": "Europa",
@@ -8,7 +84,7 @@
         "info": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
         "countries": 50,
         "languages": 60,
-        "cities": 27
+        "population": 741
       },
       "cities": [
         {
